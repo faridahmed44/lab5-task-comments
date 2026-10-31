@@ -1,0 +1,49 @@
+.commentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 15px 0;
+  border-radius: 8px;
+ 
+
+}
+
+.comment{
+  padding: 12px;
+  margin-left: 12px;
+  background-color: hsl(243, 61%, 93%);
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+}
+.postButton{
+  width: 60px;
+  height: 30px;
+  border-radius: 20px;
+  margin-left: 10px;
+  background-color: hsl(243, 75%, 59%);
+  color: white;
+   
+
+}
+.commentInput {
+  width:450px;
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  
+  background-color: hsl(243, 75%, 59%);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+
+}

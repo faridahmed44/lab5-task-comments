@@ -1,11 +1,20 @@
 import { useState } from 'react'
-
+import CommentInput from './CommentsInput.jsx'
+import Comments from './Comments.jsx'
 import './App.css'
 
 function App() {
-  
+
+  const [comments, setComments] = useState([
+    { name: "Sara", text: "Great post!" },
+    { name: "mohanad", text: "Thanks for sharing this." },
+    { name: "Ali", text: "I found this very helpful." },
+  ]);
+
   return (
-    <div className="App"> 
+    <div>
+      <CommentInput comments={comments} setComments={setComments} />
+      <Comments comments={comments} />
     </div>
   )
 }
