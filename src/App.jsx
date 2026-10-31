@@ -7,7 +7,7 @@ function App() {
 
   const [comments, setComments] = useState([
     { name: "Sara", text: "Great post!" },
-    { name: "mohanad", text: "Thanks for sharing this." },
+    { name: "Mohanad", text: "Thanks for sharing this." },
     { name: "Ali", text: "I found this very helpful." },
   ]);
 
