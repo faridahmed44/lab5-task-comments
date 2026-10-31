@@ -11,7 +11,7 @@
 .comment{
   padding: 12px;
   margin-left: 12px;
-  background-color: hsl(243, 61%, 93%);
+  background-color: hsl(267, 67%, 88%);
   color: rgb(0, 0, 0);
   border-radius: 8px;
 }
@@ -20,7 +20,7 @@
   height: 30px;
   border-radius: 20px;
   margin-left: 10px;
-  background-color: hsl(243, 75%, 59%);
+  background-color: hsl(267, 75%, 59%);
   color: white;
    
 
@@ -38,7 +38,7 @@
   height: 36px;
   border-radius: 50%;
   
-  background-color: hsl(243, 75%, 59%);
+  background-color:  hsl(267, 75%, 59%);
   color: white;
 
   display: flex;
